@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Title bar, and title bar image! -->
+		<title>Notion Crafts</title>
+		<link
+			rel="icon"
+			type="image/png"
+			href="{{ url_for('static', filename='image/notion-logo.png') }}"
+		/>
+
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{{ url_for('static', filename='css/styles.css') }}"
+		/>
+		<!-- connect to the js script -->
+		<script src=" {{ url_for('static', filename='js/scripts.js') }}"></script>
+
+		<!-- for buy-me-a-coffee widget -->
+		<script
+			data-name="BMC-Widget"
+			data-cfasync="false"
+			src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+			data-id="dhirajch"
+			data-description="Support me on Buy me a coffee!"
+			data-message="Support my work, buy me a coffee!"
+			data-color="#40DCA5"
+			data-position="Right"
+			data-x_margin="18"
+			data-y_margin="18"
+		></script>
+		<!-- for Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header>
+			<a href="#" class="name">The Notion Crafts</a>
+			<ul>
+				<li class="hideable">
+					<a href="#icons-page" id="icons-page-link">Icons</a>
+				</li>
+				<li class="hideable">
+					<a href="#widgets-page" id="widgets-page-link">Widgets</a>
+				</li>
+				<li>
+					<a href="#support-me-page" id="support-me-page-link">About Me</a>
+				</li>
+				<li class="hideable"><a>&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+				<li class="search-container">
+					<input
+						type="text"
+						class="search-input"
+						placeholder="Search icons and widgets"
+					/>
+					<a class="search-icon fas fa-search"></a>
+				</li>
+			</ul>
+		</header>
+		<div class="full-pager" id="home-page">
+			<section class="photo home-page-items"></section>
+			<section class="home-page-items">
+				<h3 style="font-weight: normal; text-align: center">
+					<!-- Home Page Content -->
+					<p style="font-weight: bold; text-align: center">
+						Welcome to Notion Crafts!
+					</p>
+					Your one-stop source for icons and widgets to enhance your Notion
+					pages. <br /><br />
+					Elevate your Notion workspace with customizable elements for a
+					personalized and engaging experience. <br /><br />Start creating
+					standout pages today!
+				</h3>
+			</section>
+		</div>
+		<div class="full-pager" id="icons-page">
+			<!-- Icons Page -->
+			<h2 class="section-title">ICONS</h2>
+			<div class="icons-section">
+				{% for icon in icons_data %}
+				<div class="icon-component">
+					<div class="icon-visual">
+						<img src="{{ icon.image_link }}" alt="Icon" />
+						<button class="copy-btn">COPY</button>
+					</div>
+					<div class="icon-name">{{ icon.name }}</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="full-pager" id="widgets-page">
+			<!-- Widgets Page -->
+			<h2 class="section-title">Widgets</h2>
+			<div class="widgets-section">
+				{% for widget in widgets_data %}
+				<div class="widget-component">
+					<div class="widget-visual">
+						<iframe src="{{ widget.widget_link }}"></iframe>
+					</div>
+					<div class="widget-com-control">
+						<div class="widget-name">{{ widget.widget_name }}</div>
+						<button class="widget-copy-btn">COPY</button>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="full-pager" id="support-me-page">
+			<!-- About Me Page -->
+			<h2 class="section-title">About Me</h2>
+			<div class="support-me-section">
+				<div class="last-page-items">
+					<p>Hey, this is Dhiraj!</p>
+					<p>
+						I'm thrilled to share this curated collection of icons and widgets,
+						each designed with a fervor to supercharge and beautify your Notion
+						workspace. A tailored Notion space doesn't just look good - it feels
+						right, fostering creativity and enhancing productivity in an
+						aesthetic that resonates with you.
+					</p>
+					<p>
+						The icons here are sourced from Icons8 and I have designed and
+						developed the widgets myself, more in the pipeline!
+					</p>
+					<p>
+						Your thoughts, feedback, or suggestions? Don't hesitate to reach out
+						at <br />
+						<strong>dhirajc963@gmail.com</strong>
+						<i class="fas fa-envelope-square"> </i>
+					</p>
+				</div>
+				<!-- Buy Me a Coffee Button -->
+				<script
+					type="text/javascript"
+					src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+					data-name="bmc-button"
+					data-slug="dhirajch"
+					data-color="#40DCA5"
+					data-emoji=""
+					data-font="Lato"
+					data-text="Buy me a coffee"
+					data-outline-color="#000000"
+					data-font-color="#ffffff"
+					data-coffee-color="#FFDD00"
+				></script>
+			</div>
+		</div>
+	</body>
+</html>

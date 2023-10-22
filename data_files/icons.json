@@ -1,0 +1,350 @@
+[
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/mac-os.png",
+		"name": "Apple"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/google-logo.png",
+		"name": "Google"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/air-jordan.png",
+		"name": "Air Jordan"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/linkedin.png",
+		"name": "LinkedIn"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/pinterest.png",
+		"name": "Pinterest"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/twitter.png",
+		"name": "Twitter"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/home.png",
+		"name": "Home"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/organization.png",
+		"name": "Organization"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/area-chart.png",
+		"name": "Area Chart"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/combo-chart.png",
+		"name": "Combo Chart"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/doughnut-chart.png",
+		"name": "Doughnut Chart"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/rebalance-portfolio.png",
+		"name": "Rebalance Portfolio"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/total-sales-1.png",
+		"name": "Total Sales"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/contrast.png",
+		"name": "Contrast"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/layers.png",
+		"name": "Layers"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/book.png",
+		"name": "Book"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/exam.png",
+		"name": "Exam"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/training.png",
+		"name": "Training"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/diamond--v1.png",
+		"name": "Diamond"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/water-bottle.png",
+		"name": "Water Bottle"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/cocktail.png",
+		"name": "Cocktail"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/vegetarian-food.png",
+		"name": "Vegetarian Food"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/japanese-knife.png",
+		"name": "Japanese Knife"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/wine.png",
+		"name": "Wine"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/birthday-cake.png",
+		"name": "Birthday Cake"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/thanksgiving.png",
+		"name": "Thanksgiving"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/resume.png",
+		"name": "Resume"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/bank-card-back-side.png",
+		"name": "Bank Card Back Side"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/cash-receipt.png",
+		"name": "Cash Receipt"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/receipt-dollar.png",
+		"name": "Receipt Dollar"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/money-box.png",
+		"name": "Money Box"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/wallet.png",
+		"name": "Wallet"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/palm-tree.png",
+		"name": "Palm Tree"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/1-circle.png",
+		"name": "Circle 1"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/3-circle.png",
+		"name": "Circle 3"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/banner.png",
+		"name": "Banner"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/compact-camera.png",
+		"name": "Compact Camera"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/share-2.png",
+		"name": "Share"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/duster.png",
+		"name": "Duster"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/info.png",
+		"name": "Info"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/light-on.png",
+		"name": "Light On"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/lock.png",
+		"name": "Lock"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/mailbox-closed-flag-up.png",
+		"name": "Mailbox"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/pray.png",
+		"name": "Pray"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/sandbox2.png",
+		"name": "Sandbox"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/test-tube.png",
+		"name": "Test Tube"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/unlock.png",
+		"name": "Unlock"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/brain.png",
+		"name": "Brain"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/businessman.png",
+		"name": "Businessman"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/wash-your-hands.png",
+		"name": "Wash Hands"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/handshake-heart.png",
+		"name": "Handshake"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/meeting-room.png",
+		"name": "Meeting Room"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/crowd.png",
+		"name": "Crowd"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/user.png",
+		"name": "User"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/bicycle.png",
+		"name": "Bicycle"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/earth-planet.png",
+		"name": "Earth"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/map.png",
+		"name": "Map"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/north-carolina.png",
+		"name": "North Carolina"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/waypoint-map.png",
+		"name": "Waypoint Map"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/calendar.png",
+		"name": "Calendar"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/quaterly.png",
+		"name": "Quaterly"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/stacked-organizational-chart-highlighted-parent-node.png",
+		"name": "Stacked Organization"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/user-manual.png",
+		"name": "User Manual"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/project.png",
+		"name": "Project"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/high-priority.png",
+		"name": "High Priority"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/time.png",
+		"name": "Time"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/todo-list.png",
+		"name": "Todo List"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/basketball.png",
+		"name": "Basketball"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/golf-ball.png",
+		"name": "Golf Ball"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/football2.png",
+		"name": "Football"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/circled.png",
+		"name": "Circled"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/circled-up-right-2.png",
+		"name": "Circled Up Right"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/synchronize.png",
+		"name": "Synchronize"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/rotate-right.png",
+		"name": "Rotate Right"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/delete-sign.png",
+		"name": "Delete Sign"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/application-window.png",
+		"name": "Application Window"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/dating-website.png",
+		"name": "Dating Website"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/upload-2.png",
+		"name": "Upload"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/control.png",
+		"name": "Control"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/database.png",
+		"name": "Database"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/inbox.png",
+		"name": "Inbox"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/attach.png",
+		"name": "Attach"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/phone.png",
+		"name": "Phone"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/search--v1.png",
+		"name": "Search"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/edit.png",
+		"name": "Edit"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/paint-bucket-with-label.png",
+		"name": "Paint Bucket"
+	},
+	{
+		"image_link": "https://img.icons8.com/ios-filled/250/000000/design.png",
+		"name": "Design"
+	}
+]

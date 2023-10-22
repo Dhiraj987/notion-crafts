@@ -1,0 +1,341 @@
+body {
+	padding: 0;
+	font-family: PT Sans;
+	margin: 0;
+	color: #000000;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 40px 20px;
+	z-index: 100000;
+	background: #000000;
+	max-height: 8vh;
+}
+.nav_bar_with_shadow {
+	/* box-shadow: 0px 3px 6px -2px rgba(15, 14, 14, 0.705); */
+	box-shadow: 0px 3px 6px -2px rgba(15, 14, 14, 0.1);
+}
+
+header.for_sticky {
+	padding: 25px 20px;
+	background: #ffffff;
+}
+
+header.for_sticky ul li a,
+header.for_sticky .name,
+header.for_sticky .search-icon {
+	color: #000000;
+}
+
+header .name {
+	position: relative;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	transition: 0.6s;
+	color: #ffffff;
+}
+
+header ul {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-right: 30px;
+	margin: 0;
+	padding: 0;
+	margin-right: 40px;
+	transition: all 0.3s ease;
+}
+
+header ul li {
+	list-style: none;
+}
+
+header.for_sticky .search-icon {
+	margin: 0 8px;
+}
+
+header ul li a {
+	position: relative;
+	margin: 0 8px;
+	padding: 0;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 1px;
+	white-space: nowrap;
+	transition: color 0.3s ease;
+}
+
+.full-pager {
+	min-height: 10vh;
+}
+
+.section-title {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 5vh;
+	width: 100%;
+	color: rgb(0, 0, 0);
+	position: sticky;
+	width: 100%;
+	top: 86px;
+	background-color: #ffffff;
+	box-shadow: 0px -2px 6px -2px rgba(15, 14, 14, 0.705),
+		0px 2px 6px -2px rgba(15, 14, 14, 0.705);
+	z-index: 9999;
+	padding: 10px 0;
+}
+
+#home-page {
+	display: flex;
+	margin-top: 15vh;
+	height: 85vh;
+	min-height: 75vh;
+}
+
+.home-page-items {
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	height: 85vh;
+	min-height: 75vh;
+	font-weight: lighter;
+	text-decoration: dotted;
+	text-align: center;
+}
+
+.photo {
+	flex-basis: 30%;
+	max-width: 30%;
+	background-image: url("/static/image/notion-logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-y: center;
+}
+
+#icons-page {
+	background-color: #ffffff;
+}
+
+.icons-section,
+.widgets-section,
+.support-me-section {
+	display: flex;
+	min-height: inherit;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.support-me-section {
+	padding-right: 40px;
+}
+
+#widgets-page {
+	background-color: rgb(255, 255, 255);
+}
+
+#support-me-page {
+	background-color: #fff;
+	min-height: 90vh;
+	/* min-height: 80vh;
+	margin-top: 10vh;
+	box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.7);
+	transition: box-shadow 0.2s ease, transform 0.2s ease, border 0.2s ease,
+		opacity 0.9s ease; */
+}
+
+.icon-component {
+	height: 240px;
+	width: 220px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+	transition: box-shadow 0.2s ease, transform 0.2s ease, border 0.2s ease,
+		opacity 0.9s ease;
+}
+.icon-component:hover {
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+	transform: translateY(-5px);
+}
+
+.icon-visual {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.icon-visual img {
+	height: 14vh;
+	transition: opacity 0.3s ease;
+}
+
+.icon-name {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top: 1px solid black;
+	margin-top: 14px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	/* font-weight: bold; */
+	font-size: 18px;
+}
+
+.copy-btn {
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+	padding: 8px;
+	text-decoration-style: bold;
+	border: 2px solid black;
+	border-radius: 7px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.5s ease;
+}
+
+.copy-btn:hover {
+	color: #fff;
+	background-color: #000000;
+	transform: scale3d(3);
+}
+
+.search-container {
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-left: 10px;
+}
+
+.search-input {
+	display: none;
+	padding-left: 10px;
+	padding-right: 25px;
+	margin: 0px;
+	border: 1px solid #00000086;
+	border-radius: 5px;
+	transition: width 0.3s ease-in-out;
+	height: 2.5vh;
+}
+
+.search-input.active {
+	display: flex;
+	width: 180px;
+}
+
+.search-icon {
+	position: absolute;
+	right: 0px;
+	cursor: pointer;
+	padding-right: 7px;
+	color: #ffffff;
+}
+
+.hidden {
+	display: none;
+}
+
+header ul li a.active-link {
+	border-bottom: 2px solid #000000;
+	padding-bottom: 3px;
+}
+
+.widget-component {
+	height: 385px;
+	width: 350px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	background-color: #fff;
+	position: relative;
+	box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+	transition: box-shadow 0.2s ease, transform 0.2s ease, border 0.2s ease,
+		opacity 0.9s ease;
+}
+
+.widget-component:hover {
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+	transform: translateY(-5px);
+}
+
+.widget-component iframe {
+	height: 260px;
+	border: 1px solid black;
+}
+
+.widget-copy-btn {
+	padding: 8px;
+	border: 2px solid black;
+	border-radius: 7px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.5s ease;
+}
+
+.widget-copy-btn:hover {
+	color: #fff;
+	background-color: #000000;
+	transform: scale3d(3);
+}
+
+.widget-com-control {
+	display: flex;
+	width: inherit;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 1px solid black;
+	margin-top: 14px;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	font-size: 21px;
+}
+
+.last-page-items {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10%;
+	margin-right: 7%;
+	text-align: center;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	font-size: 1.2em;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
